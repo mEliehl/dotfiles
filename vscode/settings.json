@@ -1,0 +1,23 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-k>": false,
+    "<C-p>": false,
+    "<C-b>": false
+  },
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "w"],
+      "commands": ["workbench.action.files.save"]
+    }
+  ],
+  "workbench.startupEditor": "none",
+  "diffEditor.ignoreTrimWhitespace": false
+}
